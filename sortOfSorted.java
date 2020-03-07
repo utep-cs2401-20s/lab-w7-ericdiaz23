@@ -35,6 +35,7 @@ class sortOfSorted {
                 a[end] = a[max];
                 a[max] = temp;
                 end--;
+                max = start;
 
             }
             else{
@@ -43,6 +44,7 @@ class sortOfSorted {
                 a[start] = a[max];
                 a[max] = temp;
                 start++;
+                max = start;
 
             }
         }
